@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        tools:context="mm.com.thetpaingsoe.busticketapp.MoreDetailActivity">
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:text="Choose your seat number: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_bus_chair"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"/>
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Name"
+                android:textSize="16dp"
+                android:textColor="#fff"/>
+            <EditText
+                android:id="@+id/buy_name"
+                android:layout_width="180dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your NRC"
+                android:textSize="16dp"
+                android:textColor="#fff"/>
+            <EditText
+                android:id="@+id/buy_nrc"
+                android:layout_width="180dp"
+                android:layout_marginLeft="35dp"
+                android:hint="14/kakana(n)123456"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Ticket count: "
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/buy_nrc"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check"/>
+            <Button
+                android:id="@+id/btn_purchase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purchase"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Bus Ticket  App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="login">LOGIN</string>
+    <string name="phone">Phone Number</string>
+    <string name="passowrd">Password</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+
+    <string name="title_activity_bus_list">BusListActivity</string>
+    <string-array name="pathein_yangon">
+        <item>ဧရာေ႐ႊဇင္</item>
+        <item>နဝရက္</item>
+        <item>ေ႐ႊမန္းသူ</item>
+        <item>ရွမ္းမေလး</item>
+        <item>ပုသိမ္သူ</item>
+        <item>ျမင့္</item>
+        <item>ျမင့္ျမန္မာ</item>
+        <item>ေမာ္ကြန္းသစ္</item>
+        <item>ယူနီဗာဆယ္</item>
+        <item>ကံထူးေအာင္</item>
+        <item>ျမတ္မိခင္</item>
+        <item>ေ႐ႊမဂၤလာ</item>
+    </string-array>
+
+    <string-array name="pathein_Naypyidaw">
+        <item>ထက္​ဦး</item>
+        <item>ေမာ္​ကြန္​းသစ္​</item>
+        <item>နန္​းထိုက္​စံ</item>
+
+    </string-array>
+
+    <string-array name="pathain_Mandaly">
+        <item>ျမတ္​မႏၲလာထြန္​း</item>
+        <item>ေကာင္​းျမတ္​မန္​း</item>
+        <item>ေတာ္​ဝင္​မႏၲလာ</item>
+
+    </string-array>
+
+    <string-array name="pathain_mawlamyaing">
+        <item>ကံထူး​ေအာင္​</item>
+
+
+    </string-array>
+
+
+    <string-array name="pathain_chaungthar">
+        <item>ကံထူး​ေအာင္​</item>
+        <item>ေတာ္​ဝင္​မႏၲလာ</item>
+        <item>နန္​းထိုက္​စံ</item>
+
+    </string-array>
+
+    <string-array name="pathain_ngwesaung">
+
+        <item>ထက္​ဦး</item>
+        <item>ေမာ္​ကြန္​းသစ္​</item>
+        <item>နန္​းထိုက္​စံ</item>
+    </string-array>
+
+    <string-array name="pathain_Myaungmya">
+        <item>ေမာ္ကြန္းသစ္</item>
+        <item>ယူနီဗာဆယ္</item>
+        <item>ကံထူးေအာင္</item>
+        <item>ျမတ္မိခင္</item>
+        <item>ေ႐ႊမဂၤလာ</item>
+    </string-array>
+
+    <string-array name="pathain_pyay">
+        <item>နဝရက္</item>
+        <item>ေ႐ႊမန္းသူ</item>
+        <item>ရွမ္းမေလး</item>
+
+    </string-array>
+
+    <string-array name="pathain_taungkyi">
+        <item>ယူနီဗာဆယ္</item>
+        <item>ကံထူးေအာင္</item>
+        <item>ျမတ္မိခင္</item>
+    </string-array>
+
+    <string-array name="pathain_hintada">
+        <item>ေတာ္​ဝင္​မႏၲလာ</item>
+        <item>နန္​းထိုက္​စံ</item>
+    </string-array>
+    <string-array name="items">
+        <item>Uplode Profile</item>
+        <item>History</item>
+        <item>Ticket</item>
+        <item>Invite</item>
+        <item>Content us</item>
+        <item>About</item>
+
+    </string-array>
+    <string name="title_activity_upload_profile">UploadProfile</string>
+    <string-array name="trip_array">
+        <item>Pathein</item>
+        <item>Yangon</item>
+        <item>Mandalay</item>
+        <item>Naypyitaw</item>
+        <item>Mawlamyaing</item>
+        <item>Chaungthar</item>
+        <item>Ngwesaung</item>
+        <item>Myaungmya</item>
+        <item>Pyay</item>
+        <item>Taungkyi</item>
+        <item>Hintada</item>
+    </string-array>
+    <string name="introduce">  Bus Ticket App is more useful and more easily to use for you.You can buy with your phone bill.
+    So,You can booking with your phone bill. This is the first application which can buy with phone bill in Myanmar.This application
+    can help to travel with car at Myanmar.</string>
+</resources>
